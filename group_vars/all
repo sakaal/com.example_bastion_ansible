@@ -1,0 +1,6 @@
+#
+# List of authorized source addresses for the administrative firewall zone:
+#
+admin_access_sources:
+#- 198.51.100.123        # John Doe's current home IP (dynamic)
+#- 203.0.113.43          # John's office NAT address
