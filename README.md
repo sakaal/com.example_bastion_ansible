@@ -18,6 +18,11 @@ under the following management domain:
 
 ## Deployment procedure
 
-1. Copy this sample repository to use it as a template
-   to start a new repository dedicated to your service instance.
-    * Name the new repository according to your management domain name.
+* Copy this sample repository to use it as a template
+  to start a new repository dedicated to your service instance.
+  * Name the new repository according to your management domain name.
+
+* You must GPG-sign every commit made to your private copy of this repository.
+  Otherwise the bastion host self-configuration will not apply your changes.
+
+        git commit --gpg-sign=johndoe@example.com --message="Changed my home IP address"
