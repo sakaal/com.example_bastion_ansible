@@ -1,0 +1,4 @@
+#
+# Developer services are exposed in the DMZ
+#
+firewall_zone: dmz

@@ -1,0 +1,18 @@
+# file: hosts
+#
+# The bastion host configuration is applied locally. Bastion hosts need to be
+# able to reconfigure themselves independent of administrative client access.
+#
+# Specifying this local inventory file as a command-line argument to the
+# ansible-playbook command sets the inventory_dir variable to point to this
+# directory. Here's an example usage from a parent directory containing both
+# the bastion_ansible and com.example_bastion_ansible repositories:
+#
+# ansible-playbook -vvv bastion_ansible/bastion.yml -i com.example_bastion_ansible/hosts
+#
+
+#
+# Restricted access to the development environment:
+#
+[dev_servers]
+#guest.host.example.com
